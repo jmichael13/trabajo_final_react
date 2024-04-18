@@ -80,9 +80,9 @@ export const Pokemon = () => {
                                     <div className="relative flex flex-col mt-4">
                                         <div className="px-4 py-5 flex-auto">
                                             <h6 className="text-xl mb-1 font-semibold text-center">PESO</h6>
-                                            <p className="mb-4 text-blueGray-500 text-center">
+                                            <div className="mb-4 text-blueGray-500 text-center">
                                                 {(detalles.weight) / 10} Kilogramos
-                                            </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="relative flex flex-col min-w-0">
@@ -92,15 +92,15 @@ export const Pokemon = () => {
                                                 HABILIDADES
 
                                             </h6>
-                                            <p className="mb-4 text-blueGray-500 text-center">
+                                            <div className="mb-4 text-blueGray-500 text-center">
                                                 {
                                                     abilitie.map((abilities) => (
                                                         <div >
-                                                            <p>{abilities.ability.name}</p>
+                                                            <p>{abilities.ability.name.url}</p>
                                                         </div>
                                                     ))
                                                 }
-                                            </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -109,16 +109,16 @@ export const Pokemon = () => {
                                         <div className="px-4 py-5 flex-auto">
 
                                             <h6 className="text-xl mb-1 font-semibold text-center">TAMAÑO</h6>
-                                            <p className="mb-4 text-blueGray-500 text-center">
+                                            <div className="mb-4 text-blueGray-500 text-center">
                                                 {(detalles.height) / 10} Metros.
-                                            </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="relative flex flex-col min-w-0">
                                         <div className="px-4 py-5 flex-auto">
 
                                             <h6 className="text-xl mb-1 font-semibold text-center">ESTADISTICAS</h6>
-                                            <p className="mb-4 text-blueGray-500 text-center">
+                                            <div className="mb-4 text-blueGray-500 text-center">
 
                                                 {
                                                     stats.map((stats) => (
@@ -128,7 +128,7 @@ export const Pokemon = () => {
                                                         </div>
                                                     ))
                                                 }
-                                            </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
