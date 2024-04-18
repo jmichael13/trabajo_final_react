@@ -39,8 +39,6 @@ export const Pokemon = () => {
     return (
         <div>
 
-
-
             <section className="relative bg-blueGray-50">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap">

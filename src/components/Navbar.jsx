@@ -3,9 +3,6 @@ import { NavLink } from "react-router-dom"
 export const Navbar = () => {
 
 	return (
-
-
-
 		<div >
 			<section className="bg-white dark:bg-gray-800 ">
 				<nav className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center ">
@@ -29,9 +26,6 @@ export const Navbar = () => {
 					</a>
 				</nav>
 			</section>
-
-
-
 		</div>
 
 

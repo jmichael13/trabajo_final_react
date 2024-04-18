@@ -40,24 +40,7 @@ export const CardPokemon = (props) => {
         </article>
 
 
-        // <div className="flex min-h-screen items-center justify-center bg-gray-100">
-        //     <div className="mx-auto px-5">
-        //         <div className="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-        //             <img className="w-full rounded-lg object-cover object-center" src={imagen.front_default} alt="" />
-        //             <p className="mb-4 ml-4 text-xl font-semibold text-gray-800">{name}</p>
-        //             <p className="my-4 pl-4 font-bold text-gray-500"><NavLink to={`/pokemon/${name}`}>detalles</NavLink></p>
-
-        //         </div>
-        //     </div>
-        // </div>
-
-        // <div>
-
-        //     <h1>{name}</h1>
-        //     <img src={imagen.front_default} alt="" /> 
-        //     <NavLink to={`/pokemon/${name}`}>detalles</NavLink>
-        // </div>
-
+       
 
     )
 }
