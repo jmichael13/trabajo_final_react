@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.portada{
+    background-image: url(public/nwt.jpg);
+    background-position: center;
+}
+
+.colorcss{
+    background-color: rgb(232, 236, 225);
+}
+
